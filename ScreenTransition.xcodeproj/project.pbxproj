@@ -16,6 +16,7 @@
 		82C40104285B264F001E858C /* ScreenTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C40103285B264F001E858C /* ScreenTransitionTests.swift */; };
 		82C4010E285B264F001E858C /* ScreenTransitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C4010D285B264F001E858C /* ScreenTransitionUITests.swift */; };
 		82C40110285B264F001E858C /* ScreenTransitionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C4010F285B264F001E858C /* ScreenTransitionUITestsLaunchTests.swift */; };
+		82C4011D285B2B37001E858C /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C4011C285B2B37001E858C /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		82C40109285B264F001E858C /* ScreenTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C4010D285B264F001E858C /* ScreenTransitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTransitionUITests.swift; sourceTree = "<group>"; };
 		82C4010F285B264F001E858C /* ScreenTransitionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTransitionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		82C4011C285B2B37001E858C /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				82C400EE285B264E001E858C /* SceneDelegate.swift */,
 				82C400F0285B264E001E858C /* ViewController.swift */,
 				82C400F2285B264E001E858C /* Main.storyboard */,
+				82C4011C285B2B37001E858C /* ModalViewController.swift */,
 				82C400F5285B264F001E858C /* Assets.xcassets */,
 				82C400F7285B264F001E858C /* LaunchScreen.storyboard */,
 				82C400FA285B264F001E858C /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82C4011D285B2B37001E858C /* ModalViewController.swift in Sources */,
 				82C400F1285B264E001E858C /* ViewController.swift in Sources */,
 				82C400ED285B264E001E858C /* AppDelegate.swift in Sources */,
 				82C400EF285B264E001E858C /* SceneDelegate.swift in Sources */,
